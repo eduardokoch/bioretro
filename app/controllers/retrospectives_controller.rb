@@ -6,7 +6,9 @@ class RetrospectivesController < ApplicationController
 
   def new
     @retrospective = RetrospectiveDecorator.new(Retrospective
-                                                .new(team: current_team))
+                                                .new(team: current_team,
+                                                     schedule: Time.now,
+                                                     date: Time.now))
   end
 
   def create
