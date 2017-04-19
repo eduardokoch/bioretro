@@ -12,6 +12,7 @@ gem 'therubyracer'
 gem 'settingslogic'
 gem 'responders', '~> 2.1'
 gem 'unicorn'
+gem  'spring'
 
 group :development, :test do
   gem 'byebug'
@@ -23,7 +24,6 @@ end
 
 group :development do
   gem 'web-console', '~> 2.0'
-  gem 'spring'
 end
 
 group :test do
