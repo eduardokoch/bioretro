@@ -11,6 +11,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'therubyracer'
 gem 'settingslogic'
 gem 'responders', '~> 2.1'
+gem 'unicorn'
 
 group :development, :test do
   gem 'byebug'
