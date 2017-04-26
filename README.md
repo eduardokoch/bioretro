@@ -1,7 +1,7 @@
-# Niceretro
+# BioRetrô
 
 A friendly application to manage agile retrospectives easily.
-With Niceretro, your team can share Positive and Negative points lived on last sprint,
+With BioRetrô, your team can share Positive and Negative points lived on last sprint,
 as point any team's doubts.
 
 # LICENSE
